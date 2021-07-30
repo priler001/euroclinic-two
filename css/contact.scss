@@ -1,0 +1,27 @@
+// HEADER
+
+.section-info{
+    .container{
+        .contact-text{
+            p{
+                font-weight: 700;
+            }
+            .phone-text{
+                margin-bottom: 5px;
+            }
+            .phones{
+                margin-top: 0;
+                font-size: 18px;
+            }
+            article:first-child{
+                margin-top: 50px;
+            }
+            article:nth-child(2){
+                margin-top: 60px;
+            }
+            article:last-child{
+                margin-top: 60px;
+            }
+        }
+    }
+}

@@ -1,0 +1,86 @@
+.doctors {
+  margin-top: 100px;
+}
+
+.doctors .container .doctors-block {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+}
+
+.doctors .container .doctors-block article {
+  position: relative;
+  width: 270px;
+}
+
+.doctors .container .doctors-block article p {
+  font-size: 14px;
+  font-weight: 500;
+  padding-top: 15px;
+  color: #222222;
+}
+
+.doctors .container .doctors-block article::before {
+  content: '';
+  bottom: -10px;
+  left: 0;
+  position: absolute;
+  width: 0%;
+  height: 2px;
+  background-color: #000;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.doctors .container .doctors-block article:hover:before {
+  width: 100%;
+}
+
+.doctors .container .doctors-block .image {
+  width: 250px;
+  height: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.doctors .container .doctors-block .image-one {
+  background-image: url(../assets/images/nail.jpg);
+}
+
+.doctors .container .doctors-block .image-two {
+  background-image: url(../assets/images/aziz.jpg);
+}
+
+.doctors .container .doctors-block .image-three {
+  background-image: url(../assets/images/alisher.jpg);
+}
+
+.doctors .container .doctors-block .image-four {
+  background-image: url(../assets/images/bobur.jpg);
+}
+
+.doctors .container .doctors-block .image-five {
+  background-image: url(../assets/images/shohruh.jpg);
+}
+
+.doctors .container .doctors-block .image-six {
+  background-image: url(../assets/images/muhammed.jpg);
+}
+
+.doctors .container .change-doctors button {
+  display: block;
+  margin: 10px 0px;
+  border: none;
+  padding: 5px;
+  width: 100%;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+.doctors .container .change-doctors button:hover {
+  background-color: #075095;
+  color: #fff;
+}
+/*# sourceMappingURL=doctors.css.map */

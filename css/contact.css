@@ -1,0 +1,25 @@
+.section-info .container .contact-text p {
+  font-weight: 700;
+}
+
+.section-info .container .contact-text .phone-text {
+  margin-bottom: 5px;
+}
+
+.section-info .container .contact-text .phones {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+.section-info .container .contact-text article:first-child {
+  margin-top: 50px;
+}
+
+.section-info .container .contact-text article:nth-child(2) {
+  margin-top: 60px;
+}
+
+.section-info .container .contact-text article:last-child {
+  margin-top: 60px;
+}
+/*# sourceMappingURL=contact.css.map */
