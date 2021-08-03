@@ -596,6 +596,13 @@ footer{
             padding-right: 20px;
         }
     }
+    .price-block__inner{
+        display: grid !important;
+        grid-template-columns: 1fr;
+    }
+    .nav.is-active{
+        background-color: #fff !important;
+    }
 }
 
 @media (max-width: 992px){
@@ -977,8 +984,16 @@ nav{
                     color: #000 !important;
                 }
             }
-      }
-
+    }
+    .price-block__inner{
+        margin-left: -30px;
+        .card{
+            width: 250px;
+        }
+        .block{
+            width: 250px;
+        }
+    }
 }
 
 @media(max-width: 370px){

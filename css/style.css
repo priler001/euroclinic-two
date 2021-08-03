@@ -690,6 +690,15 @@ footer .container .footer-block .list-inline .icon {
   .footer-block img {
     padding-right: 20px;
   }
+  .price-block__inner {
+    display: -ms-grid !important;
+    display: grid !important;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .nav.is-active {
+    background-color: #fff !important;
+  }
 }
 
 @media (max-width: 992px) {
@@ -1114,6 +1123,15 @@ footer .container .footer-block .list-inline .icon {
   }
   .sticky-top.scrolled .btn-nav:hover a {
     color: #000 !important;
+  }
+  .price-block__inner {
+    margin-left: -30px;
+  }
+  .price-block__inner .card {
+    width: 250px;
+  }
+  .price-block__inner .block {
+    width: 250px;
   }
 }
 

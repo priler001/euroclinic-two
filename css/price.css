@@ -27,14 +27,11 @@
 }
 
 .price-block .container .price-block__inner .block .accordion .card {
-  width: 450px !important;
   background-color: #fff;
-  color: #075095;
   cursor: pointer;
   margin-bottom: 5px;
   font-weight: 500;
   border: 1px solid rgba(0, 0, 0, 0.125);
-  font-size: 18px;
 }
 
 .price-block .container .price-block__inner .block .accordion .card .card-header {
@@ -42,11 +39,24 @@
   background-color: #fff;
   -webkit-transition: .3s;
   transition: .3s;
+  color: #075095;
+}
+
+.price-block .container .price-block__inner .block .accordion .card .card-header strong {
+  font-size: 17px;
 }
 
 .price-block .container .price-block__inner .block .accordion .card .card-header:hover {
   background-color: #075095;
   color: #fff;
+}
+
+.price-block .container .price-block__inner .block .accordion .card .card-body {
+  color: #000;
+}
+
+.price-block .container .price-block__inner .block .accordion .card .card-body ul {
+  list-style: inherit;
 }
 
 .price-block .container .price-block__inner .form {
@@ -55,6 +65,7 @@
   color: #fff;
   text-align: center;
   margin-right: 100px;
+  height: 500px;
 }
 
 .price-block .container .price-block__inner .form h1 {
