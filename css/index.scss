@@ -5,9 +5,9 @@
         left: 0;
         width: 100%;
         min-height: 700px;
-        background-color: rgba(0,0,0,0.5);
+        background-color: rgba(0,0,0,0.1);
     }
-    background-image: url(../assets/images/slide-1.jpg);
+    background-image: url(../assets/images/silde-1.jpg);
     height: 700px;
     background-size: cover;
     background-position: center;
@@ -16,16 +16,13 @@
             margin-top: 50px;
             color: #fff;
             padding: 100px;
-            h1{
-                font-size: 40px !important;
-            }
             h3{
                 margin-top: 20px;
                 color: #0AAEF5;
             }
             p{
+                font-size: 30px !important;
                 font-size: 18px;
-                color: #a8a8a8;
                 font-weight: 500;
             }
             .btn-nav{
@@ -49,6 +46,9 @@
               .btn-nav:hover i {
                   margin-left: 5px !important;
                   color: #2d3663;
+              }
+              .col-sm-1{
+                  margin-left: -100px;
               }
         }
 }
@@ -249,7 +249,7 @@
                 i{
                     transition: .3s;
                 }
-                button:hover{
+                a:hover{
                     background-color: #2d3663 !important;
                     color: #fff;
                     i{

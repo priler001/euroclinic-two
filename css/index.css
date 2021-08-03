@@ -1,6 +1,6 @@
 #header {
   margin-top: 20px;
-  background-image: url(../assets/images/slide-1.jpg);
+  background-image: url(../assets/images/silde-1.jpg);
   height: 700px;
   background-size: cover;
   background-position: center;
@@ -12,7 +12,7 @@
   left: 0;
   width: 100%;
   min-height: 700px;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 #header .header {
@@ -21,18 +21,14 @@
   padding: 100px;
 }
 
-#header .header h1 {
-  font-size: 40px !important;
-}
-
 #header .header h3 {
   margin-top: 20px;
   color: #0AAEF5;
 }
 
 #header .header p {
+  font-size: 30px !important;
   font-size: 18px;
-  color: #a8a8a8;
   font-weight: 500;
 }
 
@@ -62,6 +58,10 @@
 #header .header .btn-nav:hover i {
   margin-left: 5px !important;
   color: #2d3663;
+}
+
+#header .header .col-sm-1 {
+  margin-left: -100px;
 }
 
 #about {
@@ -288,12 +288,12 @@
   transition: .3s;
 }
 
-#doctors .container .doctors-block article button:hover {
+#doctors .container .doctors-block article a:hover {
   background-color: #2d3663 !important;
   color: #fff;
 }
 
-#doctors .container .doctors-block article button:hover i {
+#doctors .container .doctors-block article a:hover i {
   color: #fff;
 }
 

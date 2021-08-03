@@ -21,12 +21,27 @@ $(function () {
   $(document).scroll(function () {
     var $nav = $(".nav");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
-    let nav_link = $(".nav-item")
-    nav_link.toggleClass('nav-white', $().scrollTop() > $nav.height())
     let hamburger = $(".hamburger-inner")
     hamburger.toggleClass('hamburger-white', $(this).scrollTop() > $nav.height())
   });
 });
 
-  
+var filter_select_el = document.querySelector('.change-doctors');
+var items_el = document.querySelector('.doctors-block');
+var filter_btn = filter_select_el.querySelectorAll('button');
 
+
+
+filter_btn.forEach( (item) => {
+  item.addEventListener('click', () => {
+    console.log(item.className);
+    var items = items_el.getElementsByClassName('item');
+    for (var i=0; i<items.length; i++) {
+      if (items[i].classList.contains(item.className)) {
+        items[i].style.display = 'block';
+      } else {
+        items[i].style.display = 'none';
+      }
+    }
+  })
+})

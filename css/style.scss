@@ -127,6 +127,15 @@ ul{
       
   }
 
+a{
+    color: #000;
+}
+
+a:hover{
+    text-decoration: none;
+    color: #000;
+}
+
 
 
  // TOPBAR START
@@ -407,6 +416,9 @@ footer{
         padding-left: 0;
         display: grid !important;
         grid-template-columns: repeat(3, 1fr);
+        .navbar-brand{
+            z-index: 10000;
+        }
         // BURGER
         .hamburger {
             position: absolute;
@@ -432,7 +444,7 @@ footer{
             .hamburger.is-active .hamburger-inner,
             .hamburger.is-active .hamburger-inner::before,
             .hamburger.is-active .hamburger-inner::after {
-              background-color: #000; }
+              background-color: #000 !important; }
           
           .hamburger-box {
             width: 40px;
@@ -486,6 +498,9 @@ footer{
             width: 268px;
             margin: 0 auto;
         }
+        .hamburger-white, .hamburger-white::before, .hamburger-white::after{
+            background-color: #fff !important;
+        }
         span{
             width: 40px;
             height: 40px;
@@ -509,24 +524,15 @@ footer{
     
         }
         .navbar-ul:last-child{
-           padding: 20px;
            height: 100vh;
+           top: 40px;
            .nav-link{
                padding-bottom: 10px;
                color: #000 !important;
            }
-           button{
-               padding: 7px !important;
-               .nav-link{
-                   color: #fff;
-               }
-               .btn-nav{
-                   display: none !important;
-               }
-           }
         }
         .navbar-ul:first-child{
-            padding: 10px;
+            top: 40px !important;
             a{
                 color: #000 !important;
             }
@@ -569,7 +575,6 @@ footer{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 15px;
-    
     }
     .header{
         box-shadow: none;
@@ -727,8 +732,11 @@ nav{
     
     .doctors-block{
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr !important;
         grid-gap: 15px;
+        .max-0{
+            margin-top: 0 !important;
+        }
     }
     .btn-doctors{
         display: none;
@@ -753,6 +761,19 @@ nav{
         box-shadow: none !important;
     }
 
+}
+@media(max-width: 670px){  
+    .doctors-block{
+        display: grid;
+        grid-template-columns: 1fr !important;
+        grid-gap: 15px;
+        .max-0{
+            margin-top: 0 !important;
+        }
+        article{
+            margin: 0 auto;
+        }
+    }
 }
 @media(max-width: 600px){
     .container{
@@ -810,10 +831,13 @@ nav{
             left: 0;
         }
     } 
+    .dark-owerlay{
+        height: 100%;
+    }
 }
 @media(max-width: 400px){
     .container{
-        width: 200px;
+        width: 200px !important;
     }
     nav{
         padding-top: 30px;
@@ -893,6 +917,11 @@ nav{
         display: grid;
         grid-template-columns: 1fr;
         grid-gap: 15px;
+        article{
+            a{
+                width: 80% !important;
+            }
+        }
     }
     .btn-doctors{
         display: none;
@@ -949,6 +978,18 @@ nav{
                 }
             }
       }
+
+}
+
+@media(max-width: 370px){
+    .container{
+        width: 0px;
+    }
+    #header{
+        .header-text{
+            margin-right: 100% !important;
+        }
+    }
 }
 
 .text{

@@ -12,6 +12,7 @@
 .doctors .container .doctors-block article {
   position: relative;
   width: 270px;
+  cursor: pointer;
 }
 
 .doctors .container .doctors-block article p {
