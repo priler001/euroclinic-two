@@ -1,0 +1,23 @@
+.team-info{
+    margin-top: 100px;
+    .container{
+        .team-block{
+            .team-block__img{
+                img{
+                    background-size: contain;
+                    width: 500px;
+                    height: 500px;
+                    border-radius: 10px;
+                }
+            }
+            .team-block__content{
+                h3{
+                    color: #075095;
+                }
+                p{
+                    color: rgba(45, 54, 99, 0.75);
+                }
+            }
+        }
+    }
+}
