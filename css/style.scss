@@ -645,6 +645,7 @@ footer{
     .price-block__inner{
         display: grid !important;
         grid-template-columns: 1fr;
+        grid-gap: 20px;
     }
     .nav.is-active{
         background-color: #fff !important;

@@ -74,6 +74,10 @@
   background-image: url(../assets/images/farruh.jpg);
 }
 
+.doctors .container .doctors-block .image-eight {
+  background-image: url(../assets/images/tazagul.jpg);
+}
+
 .doctors .container .change-doctors button {
   display: block;
   margin: 10px 0px;

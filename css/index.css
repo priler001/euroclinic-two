@@ -1,9 +1,10 @@
 #header {
   margin-top: 20px;
-  background-image: url(../assets/images/silde-1.jpg);
+  background-image: url(../assets/images/IMG_0693.JPEG);
   height: 700px;
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
 }
 
 #header .dark-owerlay {
@@ -26,7 +27,7 @@
 }
 
 #header .header p {
-  font-size: 30px !important;
+  font-size: 27px !important;
   font-size: 18px;
   font-weight: 500;
 }
