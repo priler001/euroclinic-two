@@ -78,6 +78,10 @@
   background-image: url(../assets/images/tazagul.jpg);
 }
 
+.doctors .container .doctors-block .image-nine {
+  background-image: url(../assets/images/dildora.jpg);
+}
+
 .doctors .container .change-doctors button {
   display: block;
   margin: 10px 0px;
