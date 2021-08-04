@@ -106,50 +106,7 @@
 
 // SERVICES START
 
-#services{
-    margin-top: 100px;
-    .container{
-        .services-block{
-            .services-block__inner{
-                display: block;
-                text-align: center;
-                margin: 0 auto;
-                h3{
-                    font-weight: 700;
-                }
-                span{
-                    margin-top: 20px;
-                }
-                p{
-                    margin-top: 20px;
-                    font-size: 18px;
-                    color: gray;
-                }
-            }
-            .services-block__content{
-                display: grid;
-                grid-template-columns: repeat(4, 1fr);
-                grid-gap: 15px;
-                article{
-                    background-color: whitesmoke;
-                    height: 200px;
-                    padding-top: 20px;
-                    transition: .4s;
-                    text-align: center;
-                    img{
-                        width: 100px;
-                        height: 100px;
-                    }
-                }
-                article:hover{
-                    background-color: #0AAEF5;
-                    color: #fff;
-                    cursor: pointer;
-                }
-            }
-        }
-    }
-}
+
 
 // SERVICES END
 
@@ -308,5 +265,11 @@
 #map{
     a{
         margin-top: 100px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .header{
+        margin-left: -55px;
     }
 }
