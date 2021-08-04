@@ -70,6 +70,10 @@
   background-image: url(../assets/images/muhammed.jpg);
 }
 
+.doctors .container .doctors-block .image-seven {
+  background-image: url(../assets/images/farruh.jpg);
+}
+
 .doctors .container .change-doctors button {
   display: block;
   margin: 10px 0px;
