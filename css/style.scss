@@ -596,7 +596,6 @@ footer{
     .topbar{
         display: none;
     }
-    
     #about{
         .container{
             grid-template-columns: 1fr;
@@ -733,6 +732,9 @@ nav{
 }
 #header{
     margin-top: 0 !important;
+    background-image: url('../assets/images/silde-1.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% !important;
 }
 .doctors-block{
     display: grid;
@@ -1063,6 +1065,9 @@ nav{
             height: 150px !important;
             background-size: cover;
         }
+    }
+    #about{
+        margin-top: -300px !important;
     }
 }
 

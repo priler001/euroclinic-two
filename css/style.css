@@ -841,6 +841,9 @@ footer .container .footer-block .list-inline .icon {
   }
   #header {
     margin-top: 0 !important;
+    background-image: url("../assets/images/silde-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% !important;
   }
   .doctors-block {
     display: -ms-grid;
@@ -1202,6 +1205,9 @@ footer .container .footer-block .list-inline .icon {
     width: 170px !important;
     height: 150px !important;
     background-size: cover;
+  }
+  #about {
+    margin-top: -300px !important;
   }
 }
 

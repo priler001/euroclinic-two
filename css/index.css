@@ -1,18 +1,9 @@
 #header {
   margin-top: 20px;
-  background-image: url(../assets/images/IMG_0693.JPEG);
-  height: 700px;
-  background-size: cover;
+  background-image: url("../assets/images/IMG_0693.JPEG");
   background-repeat: no-repeat;
-  background-position: center;
-}
-
-#header .dark-owerlay {
-  top: 0;
-  left: 0;
-  width: 100%;
-  min-height: 700px;
-  background-color: rgba(0, 0, 0, 0.1);
+  background-size: cover;
+  height: 700px;
 }
 
 #header .header {
