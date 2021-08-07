@@ -955,6 +955,9 @@ footer .container .footer-block .list-inline .icon {
   .team-block {
     margin: 0 auto;
   }
+  .team-block h3 {
+    width: 100px !important;
+  }
   .team-block__img img {
     width: 370px !important;
     height: 335px !important;

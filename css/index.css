@@ -1,58 +1,53 @@
 #header {
   margin-top: 20px;
-  background-image: url("../assets/images/IMG_0693.JPEG");
+  background-image: url("../assets/images/silde-1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 700px;
+  height: 600px;
 }
 
 #header .header {
-  margin-top: 50px;
-  color: #fff;
   padding: 100px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-#header .header h3 {
-  margin-top: 20px;
-  color: #0AAEF5;
-}
-
-#header .header p {
-  font-size: 27px !important;
-  font-size: 18px;
-  font-weight: 500;
-}
-
-#header .header .btn-nav {
-  background-color: #2d3663;
-  border-radius: 20px;
-  border: none;
+#header .header .btn {
+  border-radius: 5px;
+  border: 1px solid #fff;
   padding: 10px 30px;
   color: #fff;
   -webkit-transition: .3s;
   transition: .3s;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
+  margin-top: 30px;
 }
 
-#header .header i {
-  -webkit-transition: .3s;
-  transition: .3s;
-  padding-left: 10px;
+#header .header .btn:hover {
+  background-color: #2d3663;
+  border: none;
 }
 
-#header .header .btn-nav:hover {
-  background-color: #fff;
-  color: #000;
+#header .header .btn:hover i {
+  margin-left: 10px !important;
 }
 
-#header .header .btn-nav:hover i {
-  margin-left: 5px !important;
+#header .header h3 p {
+  font-size: 50px;
+}
+
+#header .header h3 p:first-child {
+  color: #34b8c0;
+}
+
+#header .header h3 p:nth-child(2) {
+  color: #075095;
+}
+
+#header .header h3 p:last-child {
   color: #2d3663;
-}
-
-#header .header .col-sm-1 {
-  margin-left: -100px;
 }
 
 #about {
@@ -278,9 +273,41 @@
   margin-top: 100px !important;
 }
 
-@media (max-width: 400px) {
-  .header {
-    margin-left: -55px;
+@media (max-width: 991px) {
+  #header .header {
+    margin-left: -100px;
+  }
+  #header .header .btn {
+    font-size: 14px;
+    padding: 6px 15px;
+    position: absolute;
+    right: 0;
+    border-radius: 0;
+    border-radius: 0 0 0 5px;
+    border-color: #075095;
+    color: #ffffff;
+    background-color: #075095;
+  }
+  #header .header h3 p {
+    font-size: 30px;
+  }
+  .record-text {
+    display: none !important;
+  }
+}
+
+@media (max-width: 500px) {
+  #header {
+    margin-top: 50px !important;
+  }
+  #header .header {
+    margin-left: -100px;
+  }
+  .record-text {
+    display: none !important;
+  }
+  h3 p {
+    font-size: 17px !important;
   }
 }
 /*# sourceMappingURL=index.css.map */

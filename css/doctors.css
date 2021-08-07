@@ -82,6 +82,10 @@
   background-image: url(../assets/images/dildora.jpg);
 }
 
+.doctors .container .doctors-block .image-ten {
+  background-image: url(../assets/images/sanzhar.jpg);
+}
+
 .doctors .container .change-doctors button {
   display: block;
   margin: 10px 0px;

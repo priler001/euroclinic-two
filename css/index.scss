@@ -1,46 +1,42 @@
 #header{
     margin-top: 20px;
-    background-image: url('../assets/images/IMG_0693.JPEG');
+    background-image: url('../assets/images/silde-1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 700px;
+    height: 600px;
         .header{
-            margin-top: 50px;
-            color: #fff;
             padding: 100px;
-            h3{
-                margin-top: 20px;
-                color: #0AAEF5;
-            }
-            p{
-                font-size: 27px !important;
-                font-size: 18px;
-                font-weight: 500;
-            }
-            .btn-nav{
-                background-color: #2d3663;
-                border-radius: 20px;
-                border: none;
+            align-items: center;
+            .btn{
+                border-radius: 5px;
+                border: 1px solid #fff;
                 padding: 10px 30px;
                 color: #fff;
                 transition: .3s;
                 font-weight: 700;
-                font-size: 18px;
+                font-size: 20px;
+                margin-top: 30px;
               }
-              i{
-                  transition: .3s;
-                  padding-left: 10px;
+              .btn:hover{
+                background-color: #2d3663;
+                border: none;
+                i{
+                    margin-left: 10px !important;
+                }
               }
-              .btn-nav:hover{
-                  background-color: #fff;
-                  color: #000;
-              }
-              .btn-nav:hover i {
-                  margin-left: 5px !important;
-                  color: #2d3663;
-              }
-              .col-sm-1{
-                  margin-left: -100px;
+              h3{
+                p{
+                    font-size: 50px;
+                }
+                p:first-child{
+                    color: #34b8c0;
+                }
+                p:nth-child(2){
+                    color: #075095;
+                }
+                p:last-child{
+                    color: #2d3663;
+                }
               }
         }
 }
@@ -260,8 +256,49 @@
     }
 }
 
-@media (max-width: 400px) {
-    .header{
-        margin-left: -55px;
+@media (max-width: 991px) {
+    #header{
+        .header{
+            margin-left: -100px;
+            .btn{
+                font-size: 14px;
+                padding: 6px 15px;
+                position: absolute;
+                right: 0;
+                
+                border-radius: 0;
+                border-radius: 0 0 0 5px;
+                border-color: #075095;
+                color: #ffffff;
+                background-color: #075095;
+            }
+            h3{
+                p{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+    .record-text{
+        display: none !important;
     }
 }
+
+@media (max-width: 500px) {
+
+    #header{
+        margin-top: 50px !important;
+        .header{
+            margin-left: -100px;
+        }
+    }
+    .record-text{
+        display: none !important;
+    }
+    h3{
+        p{
+            font-size: 17px !important;
+        }
+    }
+}
+
