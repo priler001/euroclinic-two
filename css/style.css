@@ -509,7 +509,6 @@ footer .container .footer-block .list-inline .icon {
     position: absolute;
     right: 0;
     padding: 15px 15px;
-    display: inline-block;
     cursor: pointer;
     z-index: 10000;
     -webkit-transition-property: opacity, -webkit-filter;
@@ -522,10 +521,11 @@ footer .container .footer-block .list-inline .icon {
             transition-timing-function: linear;
     font: inherit;
     color: inherit;
+    display: inline-block !important;
     text-transform: none;
     background-color: transparent;
     border: 0;
-    margin: 0;
+    padding-bottom: 100px !important;
     overflow: visible;
   }
   nav .hamburger:hover {
@@ -623,9 +623,6 @@ footer .container .footer-block .list-inline .icon {
   nav .navbar-brand {
     width: 268px;
     margin: 0 auto;
-  }
-  nav .hamburger-white, nav .hamburger-white::before, nav .hamburger-white::after {
-    background-color: #fff !important;
   }
   nav span {
     width: 40px;
@@ -1178,19 +1175,6 @@ footer .container .footer-block .list-inline .icon {
     padding-right: 20px;
     width: 250px;
   }
-  .sticky-top.scrolled {
-    padding-bottom: 10px;
-    -webkit-transition: background-color 200ms linear;
-    transition: background-color 200ms linear;
-    background: #16252b 100%;
-    height: 50px;
-  }
-  .sticky-top.scrolled a {
-    color: #fff !important;
-  }
-  .sticky-top.scrolled .btn-nav:hover a {
-    color: #000 !important;
-  }
   .price-block__inner {
     margin-left: -30px;
   }
@@ -1205,17 +1189,15 @@ footer .container .footer-block .list-inline .icon {
     height: 150px !important;
     background-size: cover;
   }
-  #about {
-    margin-top: -300px !important;
-  }
 }
 
 @media (max-width: 370px) {
-  .container {
-    width: 0px;
-  }
   #header .header-text {
     margin-right: 100% !important;
+  }
+  nav .container {
+    margin: 0;
+    padding: 0;
   }
 }
 
