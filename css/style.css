@@ -63,15 +63,8 @@ ul {
   padding-bottom: 10px;
   -webkit-transition: .3s;
   transition: .3s;
-  background: #16252b;
-}
-
-.nav.scrolled a {
-  color: #fff !important;
-}
-
-.nav.scrolled .btn-nav:hover a {
-  color: #000 !important;
+  background: #fff !important;
+  top: 0;
 }
 
 .default-header {
@@ -1138,6 +1131,9 @@ footer .container .footer-block .list-inline .icon {
   }
   .doctors-block article a {
     width: 80% !important;
+  }
+  #header {
+    margin-top: 50px !important;
   }
   .btn-doctors {
     display: none;

@@ -67,15 +67,9 @@ ul{
 .nav.scrolled {
     padding-bottom: 10px;
     transition: .3s;
-    background: rgb(22, 37, 43);
-    a{
-        color: #fff !important;
-    }
-        .btn-nav:hover{
-            a{
-                color: #000 !important;
-            }
-        }
+    background: #fff !important;
+    top: 0;
+
   }
 
 
@@ -997,6 +991,9 @@ nav{
                 width: 80% !important;
             }
         }
+    }
+    #header{
+        margin-top: 50px !important;
     }
     .btn-doctors{
         display: none;

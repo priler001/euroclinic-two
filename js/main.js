@@ -24,7 +24,6 @@ $(function () {
     var $nav = $(".nav");
     $nav.toggleClass('scrolled', $(this).scrollTop() > $nav.height());
     let hamburger = $(".hamburger-inner")
-    hamburger.toggleClass('hamburger-white', $(this).scrollTop() > $nav.height())
   });
 });
 
